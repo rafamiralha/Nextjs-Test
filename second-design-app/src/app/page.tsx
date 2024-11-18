@@ -31,7 +31,7 @@ export default function Home() {
     <div className="flex flex-col justify-center items-center p-10">
       <div className="w-full flex justify-center flex-col items-end">
         <div className="font-['Poppins']">Already have an account?  <a href="" className="underline ">Log in</a>  </div>
-        <div className="text-[#666666]"> Forget your user ID or password?</div>
+        <a href="" className="text-[#666666]"> Forget your user ID or password?</a>
       </div>
       <div className="h-[942px] w-[652px] flex-col justify-center items-center gap-10 inline-flex ">
         <div className="w-full flex justify-center">
