@@ -15,49 +15,49 @@ function Footer() {
                         <div className="flex-col justify-start items-start gap-2 inline-flex">
                             <div className="text-zinc-800 text-base font-normal font-['Poppins']">Product</div>
                             <div className="text-stone-500 text-sm font-normal font-['Poppins'] flex flex-col gap-2">
-                                <div>Pricing</div>
-                                <div>Solutions</div>
-                                <div>Education</div>
-                                <div>Team plans</div>
+                                 <a href="">Pricing</a>
+                                 <a href="">Solutions</a>
+                                 <a href="">Education</a>
+                                 <a href="">Team plans</a>
                             </div>
                         </div>
                         <div className="flex-col justify-start items-start gap-2 inline-flex">
                             <div className="text-zinc-800 text-base font-normal font-['Poppins']">About us</div>
                             <div className="text-stone-500 text-sm font-normal font-['Poppins'] flex flex-col gap-2">
-                                <div>About</div>
-                                <div>Branding</div>
-                                <div>Newsroom</div>
-                                <div>Partnerships</div>
-                                <div>Affiliates</div>
-                                <div>careers</div>
+                                 <a href="">About</a>
+                                 <a href="">Branding</a>
+                                 <a href="">Newsroom</a>
+                                 <a href="">Partnerships</a>
+                                 <a href="">Affiliates</a>
+                                 <a href="">careers</a>
                             </div>
                         </div>
                         <div className="flex-col justify-start items-start gap-2 inline-flex">
                             <div className="text-zinc-800 text-base font-normal font-['Poppins']">Help and support</div>
                             <div className="text-stone-500 text-sm font-normal font-['Poppins'] flex flex-col gap-2">
-                                <div>Help center</div>
-                                <div>Contact us</div>
-                                <div>Privacy & Terms</div>
-                                <div>Safety information</div>
-                                <div>Sitemap</div>
+                                 <a href="">Help center</a>
+                                 <a href="">Contact us</a>
+                                 <a href="">Privacy & Terms</a>
+                                 <a href="">Safety information</a>
+                                 <a href="">Sitemap</a>
                             </div>
                         </div>
                         <div className="flex-col justify-start items-start gap-2 inline-flex">
                             <div className="text-zinc-800 text-base font-normal font-['Poppins']">Community</div>
                             <div className="text-stone-500 text-sm font-normal font-['Poppins'] flex flex-col gap-2">
-                                <div>Angencies</div>
-                                <div>Freelancers</div>
-                                <div>Engineers</div>
+                                 <a href="">Angencies</a>
+                                 <a href="">Freelancers</a>
+                                 <a href="">Engineers</a>
                             </div>
                         </div>
                     </div>
                     <div className="ml-20 justify-start items-start gap-4 flex ">
-                        <button className="w-[180px] h-[52px] justify-center items-center flex border border-black/50 rounded-lg">
+                        <a href="" className="w-[180px] h-[52px] justify-center items-center flex border border-black/50 rounded-lg">
                             <Image src={AppstoreBtn} alt="The deafult button for Appstore"></Image>
-                        </button>
-                        <button className="w-[180px] h-[52px] justify-center items-center flex border border-black/50 rounded-lg">
+                        </a>
+                        <a href="" className="w-[180px] h-[52px] justify-center items-center flex border border-black/50 rounded-lg">
                             <Image src={GooglePlayBtn} alt="The deafult button for Appstore"></Image>
-                        </button>
+                        </a>
                     </div>
                 </div>
                 <div className="w-full h-px bg-stone-500/25" />
@@ -65,16 +65,16 @@ function Footer() {
                     <div className=" pb-14 px-10 justify-start items-center gap-14 inline-flex w-2/4">
                         <div className="text-zinc-800 text-sm font-normal font-['Poppins']">@copyright 2022</div>
                         <div className="justify-start items-start gap-6 flex text-zinc-800 text-sm font-normal font-['Poppins']">
-                            <div>Help</div>
-                            <div>Privacy</div>
-                            <div>Terms</div>
+                             <a href="">Help</a>
+                             <a href="">Privacy</a>
+                             <a href="">Terms</a>
                         </div>
                     </div>
                     <div className="justify-end items-center gap-10 inline-flex w-2/4 ">
                         <div className="justify-center items-end gap-3 flex">
-                            <div><Image src={FacebookLogo} alt="The Icon from Facebook"></Image></div>
-                            <div><Image src={TwitterLogo} alt="The old Icon from Twitter"></Image></div>
-                            <div><Image src={InstagramLogo} alt="The Icon from Instagram"></Image></div>
+                            <a href=""><Image src={FacebookLogo} alt="The Icon from Facebook"></Image></a>
+                            <a href=""><Image src={TwitterLogo} alt="The old Icon from Twitter"></Image></a>
+                            <a href=""><Image src={InstagramLogo} alt="The Icon from Instagram"></Image></a>
                         </div>
                         <div className="pl-2 justify-center items-center mx-2 flex">
                             <div className="text-zinc-800 text-base font-normal font-['Poppins']">English (united States)</div>

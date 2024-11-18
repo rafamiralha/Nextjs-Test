@@ -16,10 +16,10 @@ export default function Home() {
   const handlePassword = (e: any) => setPassword(e.target.value);
 
   return (
-    <div className="w-screen h-screen flex-col justify-center items-center inline-flex relative">
+    <div className="w-screen h-974 flex-col justify-center items-center inline-flex relative">
       <Image src={bgImage}
         alt="An image showing ballons flying"
-        className="z-[-1] h-screen w-screen"></Image>
+        className="z-[-1] h-[974px] w-screen"></Image>
       <form className=" absolute w-[974] h-[692px] rounded-3xl  flex-col justify-center items-center flex bg-white">
         <div className="  justify-center items-start inline-flex ">
           <div className=" self-stretch pl-10  justify-center items-center gap-[39px] inline-flex ">
@@ -75,10 +75,10 @@ export default function Home() {
                   <div className="grow shrink basis-0 h-0.5 bg-stone-500/25" />
                 </div>
                 <button type="button" className="w-[407px] h-16 pl-[85px] pr-[83px] pt-[18px] pb-[19px]  rounded-[40px] border border-zinc-800 justify-center items-center inline-flex">
-                  <Image src={btnGoogle} alt="A button with google logo"></Image>
+                  <Image src={btnGoogle} alt="A button with google's logo"></Image>
                 </button>
                 <div className="pr-2 py-2 justify-start items-start gap-2.5 inline-flex">
-                  <div>              <span className="text-zinc-800 text-[15px] font-normal font-['Poppins']">By creating an account, you agree to the <span className="underline"> <a href="">Terms of use</a></span> <br /> and <span className="underline"><a href="">Privacy Policy</a></span>.</span></div>
+                  <div><span className="text-zinc-800 text-[15px] font-normal font-['Poppins']">By creating an account, you agree to the <span className="underline"> <a href="">Terms of use</a></span> <br /> and <span className="underline"><a href="">Privacy Policy</a></span>.</span></div>
                 </div>
               </div>
             </div>
